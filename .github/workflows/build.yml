@@ -477,8 +477,7 @@ jobs:
           edit-mode: replace
 
   rust-test:
-    runs-on:
-      labels: bare-metal
+    runs-on: ubuntu-latest
     permissions:
       contents: read
     needs: ["set-tags"]
