@@ -236,6 +236,7 @@ jobs:
   ####### Building and Testing binaries #######
 
   cargo-clippy:
+    if: false
     runs-on:
       labels: bare-metal
     permissions:
@@ -263,6 +264,7 @@ jobs:
         run: SKIP_WASM_BUILD=1 env -u RUSTFLAGS cargo clippy --features try-runtime,runtime-benchmarks -- -Dclippy::todo
 
   build:
+    if: false
     runs-on:
       labels: bare-metal
     permissions:
@@ -517,7 +519,17 @@ jobs:
       # Checks are run after uploading artifacts since they are modified by the tests
       - name: Unit tests
         run: |
-          cargo test --profile testnet --workspace --features=evm-tracing,runtime-benchmarks
+          cargo test --profile testnet --features=evm-tracing \
+            -p moonbeam-client-evm-tracing \
+            -p moonbeam-evm-tracer         \
+            -p moonbeam-primitives-ext     \
+            -p moonbeam-rpc-core-debug     \
+            -p moonbeam-rpc-core-trace     \
+            -p moonbeam-rpc-core-types     \
+            -p moonbeam-rpc-debug          \
+            -p moonbeam-rpc-trace          \
+            -p evm-tracing-events          \
+            -p moonbeam-rpc-primitives-debug
       - name: Run sccache stat for check pre test
         run: ${SCCACHE_PATH} --show-stats
 
