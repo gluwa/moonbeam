@@ -31,7 +31,7 @@ use sp_std::vec::Vec;
 use evm_tracing_events::{Event, EvmEvent, GasometerEvent, RuntimeEvent, StepEventFilter};
 
 #[runtime_interface]
-pub trait MoonbeamExt {
+pub trait Creditcoin3Ext {
 	fn raw_step(&mut self, _data: Vec<u8>) {}
 
 	fn raw_gas(&mut self, _data: Vec<u8>) {}
