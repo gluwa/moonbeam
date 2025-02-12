@@ -150,12 +150,12 @@ impl sp_inherents::InherentDataProvider for MockTimestampInherentDataProvider {
 pub type HostFunctions = (
 	frame_benchmarking::benchmarking::HostFunctions,
 	ParachainHostFunctions,
-	moonbeam_primitives_ext::moonbeam_ext::HostFunctions,
+	moonbeam_primitives_ext::creditcoin_3_ext::HostFunctions,
 );
 #[cfg(not(feature = "runtime-benchmarks"))]
 pub type HostFunctions = (
 	ParachainHostFunctions,
-	moonbeam_primitives_ext::moonbeam_ext::HostFunctions,
+	moonbeam_primitives_ext::creditcoin_3_ext::HostFunctions,
 );
 
 /// Block Import Pipeline used.
