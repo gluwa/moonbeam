@@ -3432,7 +3432,7 @@ dependencies = [
 [[package]]
 name = "fc-api"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "async-trait",
  "fp-storage",
@@ -3444,7 +3444,7 @@ dependencies = [
 [[package]]
 name = "fc-consensus"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "async-trait",
  "fp-consensus",
@@ -3460,7 +3460,7 @@ dependencies = [
 [[package]]
 name = "fc-db"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "async-trait",
  "ethereum",
@@ -3490,7 +3490,7 @@ dependencies = [
 [[package]]
 name = "fc-mapping-sync"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "fc-db",
  "fc-storage",
@@ -3513,7 +3513,7 @@ dependencies = [
 [[package]]
 name = "fc-rpc"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3568,7 +3568,7 @@ dependencies = [
 [[package]]
 name = "fc-rpc-core"
 version = "1.1.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3583,7 +3583,7 @@ dependencies = [
 [[package]]
 name = "fc-storage"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3800,7 +3800,7 @@ dependencies = [
 [[package]]
 name = "fp-account"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "hex",
  "impl-serde",
@@ -3819,7 +3819,7 @@ dependencies = [
 [[package]]
 name = "fp-consensus"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "ethereum",
  "parity-scale-codec",
@@ -3830,7 +3830,7 @@ dependencies = [
 [[package]]
 name = "fp-ethereum"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3858,7 +3858,7 @@ dependencies = [
 [[package]]
 name = "fp-evm"
 version = "3.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "environmental",
  "evm 0.42.0",
@@ -3874,7 +3874,7 @@ dependencies = [
 [[package]]
 name = "fp-rpc"
 version = "3.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3890,7 +3890,7 @@ dependencies = [
 [[package]]
 name = "fp-self-contained"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "frame-support 38.2.0",
  "parity-scale-codec",
@@ -3902,7 +3902,7 @@ dependencies = [
 [[package]]
 name = "fp-storage"
 version = "2.0.0"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "parity-scale-codec",
  "serde",
@@ -9281,7 +9281,7 @@ dependencies = [
 [[package]]
 name = "pallet-ethereum"
 version = "4.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -9361,7 +9361,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm"
 version = "6.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "environmental",
  "evm 0.42.0",
@@ -9384,7 +9384,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-chain-id"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9479,7 +9479,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-blake2"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
 ]
@@ -9487,7 +9487,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-bn128"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9619,7 +9619,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-dispatch"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
  "frame-support 38.2.0",
@@ -9695,7 +9695,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-modexp"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
  "num",
@@ -9939,7 +9939,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-sha3fips"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
  "tiny-keccak",
@@ -9948,7 +9948,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-simple"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
  "ripemd",
@@ -13246,7 +13246,7 @@ dependencies = [
 [[package]]
 name = "precompile-utils"
 version = "0.1.0"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "derive_more 1.0.0",
  "environmental",
@@ -13289,7 +13289,7 @@ dependencies = [
 [[package]]
 name = "precompile-utils-macro"
 version = "0.1.0"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#9bd60e34a49bcaeb530a7873779f1036c65cde5a"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
 dependencies = [
  "case",
  "num_enum 0.7.3",
