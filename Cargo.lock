@@ -3432,7 +3432,7 @@ dependencies = [
 [[package]]
 name = "fc-api"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "async-trait",
  "fp-storage",
@@ -3444,7 +3444,7 @@ dependencies = [
 [[package]]
 name = "fc-consensus"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "async-trait",
  "fp-consensus",
@@ -3460,7 +3460,7 @@ dependencies = [
 [[package]]
 name = "fc-db"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "async-trait",
  "ethereum",
@@ -3490,7 +3490,7 @@ dependencies = [
 [[package]]
 name = "fc-mapping-sync"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "fc-db",
  "fc-storage",
@@ -3513,7 +3513,7 @@ dependencies = [
 [[package]]
 name = "fc-rpc"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3522,7 +3522,7 @@ dependencies = [
  "fc-mapping-sync",
  "fc-rpc-core",
  "fc-storage",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "fp-rpc",
  "fp-storage",
  "futures 0.3.31",
@@ -3530,7 +3530,7 @@ dependencies = [
  "jsonrpsee",
  "libsecp256k1",
  "log",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "parity-scale-codec",
  "prometheus",
  "rand 0.8.5",
@@ -3551,7 +3551,6 @@ dependencies = [
  "sp-blockchain 37.0.1 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-consensus 0.40.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-consensus-aura 0.40.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "sp-consensus-babe 0.40.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-externalities 0.29.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-inherents 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -3568,7 +3567,7 @@ dependencies = [
 [[package]]
 name = "fc-rpc-core"
 version = "1.1.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3583,7 +3582,7 @@ dependencies = [
 [[package]]
 name = "fc-storage"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "ethereum",
  "ethereum-types",
@@ -3800,7 +3799,7 @@ dependencies = [
 [[package]]
 name = "fp-account"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "hex",
  "impl-serde",
@@ -3819,7 +3818,7 @@ dependencies = [
 [[package]]
 name = "fp-consensus"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "ethereum",
  "parity-scale-codec",
@@ -3830,11 +3829,11 @@ dependencies = [
 [[package]]
 name = "fp-ethereum"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "ethereum",
  "ethereum-types",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "parity-scale-codec",
 ]
@@ -3858,7 +3857,7 @@ dependencies = [
 [[package]]
 name = "fp-evm"
 version = "3.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "environmental",
  "evm 0.42.0",
@@ -3874,11 +3873,11 @@ dependencies = [
 [[package]]
 name = "fp-rpc"
 version = "3.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "ethereum",
  "ethereum-types",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "parity-scale-codec",
  "scale-info",
  "sp-api 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -3890,7 +3889,7 @@ dependencies = [
 [[package]]
 name = "fp-self-contained"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "frame-support 38.2.0",
  "parity-scale-codec",
@@ -3902,7 +3901,7 @@ dependencies = [
 [[package]]
 name = "fp-storage"
 version = "2.0.0"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "parity-scale-codec",
  "serde",
@@ -6749,7 +6748,7 @@ dependencies = [
  "cumulus-test-relay-sproof-builder 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "ethereum",
  "evm-tracing-events",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "fp-rpc",
  "fp-self-contained",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -6787,7 +6786,7 @@ dependencies = [
  "pallet-erc20-xcm-bridge",
  "pallet-ethereum",
  "pallet-ethereum-xcm",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-evm-chain-id",
  "pallet-evm-precompile-author-mapping",
  "pallet-evm-precompile-balances-erc20",
@@ -6856,7 +6855,7 @@ dependencies = [
  "polkadot-runtime-common 17.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "polkadot-runtime-parachains 17.0.2",
  "precompile-foreign-asset-migrator",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rlp",
  "scale-info",
  "serde",
@@ -7012,9 +7011,9 @@ dependencies = [
  "evm-gasometer 0.42.0",
  "evm-runtime 0.42.0",
  "evm-tracing-events",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "moonbeam-primitives-ext",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "parity-scale-codec",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-io 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -7264,7 +7263,7 @@ dependencies = [
  "cumulus-test-relay-sproof-builder 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "ethereum",
  "evm-tracing-events",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "fp-rpc",
  "fp-self-contained",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -7302,7 +7301,7 @@ dependencies = [
  "pallet-erc20-xcm-bridge",
  "pallet-ethereum",
  "pallet-ethereum-xcm",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-evm-chain-id",
  "pallet-evm-precompile-author-mapping",
  "pallet-evm-precompile-balances-erc20",
@@ -7369,7 +7368,7 @@ dependencies = [
  "polkadot-parachain-primitives 14.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "polkadot-runtime-common 17.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "polkadot-runtime-parachains 17.0.2",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rlp",
  "scale-info",
  "serde",
@@ -7414,7 +7413,7 @@ dependencies = [
  "cumulus-pallet-xcmp-queue",
  "cumulus-primitives-storage-weight-reclaim 8.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "fp-ethereum",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -7436,7 +7435,7 @@ dependencies = [
  "pallet-conviction-voting",
  "pallet-crowdloan-rewards",
  "pallet-ethereum-xcm",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-evm-chain-id",
  "pallet-identity 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-message-queue 41.0.2",
@@ -7464,7 +7463,7 @@ dependencies = [
  "pallet-xcm-transactor",
  "pallet-xcm-weight-trader",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "sp-api 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-consensus-slots 0.40.1 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -7696,7 +7695,7 @@ dependencies = [
  "cumulus-test-relay-sproof-builder 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "ethereum",
  "evm-tracing-events",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "fp-rpc",
  "fp-self-contained",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -7734,7 +7733,7 @@ dependencies = [
  "pallet-erc20-xcm-bridge",
  "pallet-ethereum",
  "pallet-ethereum-xcm",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-evm-chain-id",
  "pallet-evm-precompile-author-mapping",
  "pallet-evm-precompile-balances-erc20",
@@ -7801,7 +7800,7 @@ dependencies = [
  "polkadot-parachain-primitives 14.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "polkadot-runtime-common 17.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "polkadot-runtime-parachains 17.0.2",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rlp",
  "scale-info",
  "serde",
@@ -9260,12 +9259,12 @@ version = "1.0.0"
 dependencies = [
  "environmental",
  "ethereum-types",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "log",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
  "scale-info",
@@ -9281,19 +9280,19 @@ dependencies = [
 [[package]]
 name = "pallet-ethereum"
 version = "4.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "ethereum",
  "ethereum-types",
  "evm 0.42.0",
  "fp-consensus",
  "fp-ethereum",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "fp-rpc",
  "fp-storage",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "parity-scale-codec",
  "scale-info",
  "sp-io 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9309,7 +9308,7 @@ dependencies = [
  "ethereum",
  "ethereum-types",
  "fp-ethereum",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "fp-rpc",
  "fp-self-contained",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9319,7 +9318,7 @@ dependencies = [
  "libsecp256k1",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-ethereum",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-evm-precompile-proxy",
  "pallet-proxy",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9361,12 +9360,12 @@ dependencies = [
 [[package]]
 name = "pallet-evm"
 version = "6.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "environmental",
  "evm 0.42.0",
- "fp-account 1.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-account 1.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9384,7 +9383,7 @@ dependencies = [
 [[package]]
 name = "pallet-evm-chain-id"
 version = "1.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9397,7 +9396,7 @@ name = "pallet-evm-precompile-author-mapping"
 version = "0.2.0"
 dependencies = [
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -9406,11 +9405,11 @@ dependencies = [
  "num_enum 0.5.11",
  "pallet-author-mapping",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-scheduler",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9425,7 +9424,7 @@ version = "0.1.0"
 dependencies = [
  "account",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -9433,11 +9432,11 @@ dependencies = [
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
  "paste",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -9454,18 +9453,18 @@ version = "0.1.0"
 dependencies = [
  "derive_more 0.99.18",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
  "paste",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -9479,17 +9478,17 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-blake2"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
 ]
 
 [[package]]
 name = "pallet-evm-precompile-bn128"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "substrate-bn",
 ]
@@ -9500,7 +9499,7 @@ version = "0.1.0"
 dependencies = [
  "derive_more 0.99.18",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -9508,11 +9507,11 @@ dependencies = [
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
  "paste",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -9530,7 +9529,7 @@ dependencies = [
  "account",
  "derive_more 0.99.18",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -9538,12 +9537,12 @@ dependencies = [
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-collective",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-treasury 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
  "paste",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -9562,7 +9561,7 @@ version = "0.1.0"
 dependencies = [
  "account",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -9570,10 +9569,10 @@ dependencies = [
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-conviction-voting",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -9593,19 +9592,19 @@ dependencies = [
  "cumulus-primitives-parachain-inherent 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "cumulus-test-relay-sproof-builder 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-crowdloan-rewards",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-message-queue 41.0.2",
  "pallet-scheduler",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -9619,11 +9618,11 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-dispatch"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "parity-scale-codec",
  "sp-runtime 39.0.5",
 ]
@@ -9636,7 +9635,7 @@ dependencies = [
  "cumulus-primitives-core 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "derive_more 0.99.18",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex",
@@ -9644,13 +9643,13 @@ dependencies = [
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-xcm 17.0.1",
  "pallet-xcm-transactor",
  "parity-scale-codec",
  "paste",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -9671,18 +9670,18 @@ version = "0.1.0"
 dependencies = [
  "enumflags2",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex",
  "hex-literal 0.4.1",
  "log",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-identity 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -9695,9 +9694,9 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-modexp"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "num",
 ]
 
@@ -9705,11 +9704,11 @@ dependencies = [
 name = "pallet-evm-precompile-p256verify"
 version = "0.1.0"
 dependencies = [
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "hex-literal 0.4.1",
  "p256",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
 ]
 
 [[package]]
@@ -9717,17 +9716,17 @@ name = "pallet-evm-precompile-parachain-staking"
 version = "1.0.0"
 dependencies = [
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-parachain-staking",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -9744,18 +9743,18 @@ name = "pallet-evm-precompile-preimage"
 version = "0.1.0"
 dependencies = [
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-preimage",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -9773,18 +9772,18 @@ dependencies = [
  "account",
  "derive_more 0.99.18",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-proxy",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -9800,7 +9799,7 @@ name = "pallet-evm-precompile-randomness"
 version = "0.1.0"
 dependencies = [
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -9809,12 +9808,12 @@ dependencies = [
  "num_enum 0.5.11",
  "pallet-author-mapping",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-randomness",
  "pallet-scheduler",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "session-keys-primitives",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9828,20 +9827,20 @@ name = "pallet-evm-precompile-referenda"
 version = "0.1.0"
 dependencies = [
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-preimage",
  "pallet-referenda",
  "pallet-scheduler",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -9857,17 +9856,17 @@ name = "pallet-evm-precompile-registry"
 version = "0.1.0"
 dependencies = [
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
  "log",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-scheduler",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9883,20 +9882,20 @@ dependencies = [
  "cumulus-pallet-parachain-system 0.17.1",
  "cumulus-primitives-core 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-message-queue 41.0.2",
  "pallet-staking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-xcm-transactor",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -9917,17 +9916,17 @@ version = "0.1.0"
 dependencies = [
  "cumulus-pallet-parachain-system 0.17.1",
  "cumulus-primitives-core 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-precompile-benchmarks",
  "pallet-relay-storage-roots",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-io 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -9939,18 +9938,18 @@ dependencies = [
 [[package]]
 name = "pallet-evm-precompile-sha3fips"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "tiny-keccak",
 ]
 
 [[package]]
 name = "pallet-evm-precompile-simple"
 version = "2.0.0-dev"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "ripemd",
  "sp-io 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
 ]
@@ -9988,18 +9987,18 @@ dependencies = [
  "cumulus-primitives-core 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "derive_more 0.99.18",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-xcm 17.0.1",
  "pallet-xcm-transactor",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -10021,17 +10020,17 @@ version = "0.1.0"
 dependencies = [
  "cumulus-primitives-core 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-xcm 17.0.1",
  "parity-scale-codec",
  "polkadot-parachain-primitives 14.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -10053,18 +10052,18 @@ dependencies = [
  "account",
  "cumulus-primitives-core 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "log",
  "num_enum 0.5.11",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-xcm 17.0.1",
  "pallet-xcm-transactor",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rustc-hex",
  "scale-info",
  "serde",
@@ -10086,7 +10085,7 @@ version = "0.1.0"
 dependencies = [
  "account",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -10095,12 +10094,12 @@ dependencies = [
  "num_enum 0.5.11",
  "pallet-assets",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-moonbeam-lazy-migrations",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
  "paste",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -10366,18 +10365,18 @@ name = "pallet-moonbeam-foreign-assets"
 version = "0.1.0"
 dependencies = [
  "ethereum-types",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex",
  "log",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
- "precompile-utils-macro 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
+ "precompile-utils-macro 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-io 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -10400,12 +10399,12 @@ dependencies = [
  "pallet-asset-manager",
  "pallet-assets",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-moonbeam-foreign-assets",
  "pallet-scheduler",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "rlp",
  "scale-info",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -10596,14 +10595,14 @@ version = "0.1.0"
 dependencies = [
  "cumulus-primitives-core 0.16.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-benchmarking 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "pallet-evm-precompile-p256verify",
  "pallet-relay-storage-roots",
  "parity-scale-codec",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "sp-core 34.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "sp-std 14.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
@@ -13192,7 +13191,7 @@ version = "0.1.0"
 dependencies = [
  "account",
  "derive_more 0.99.18",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex-literal 0.4.1",
@@ -13202,12 +13201,12 @@ dependencies = [
  "pallet-asset-manager",
  "pallet-assets",
  "pallet-balances 39.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "pallet-moonbeam-foreign-assets",
  "pallet-timestamp 37.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "parity-scale-codec",
  "paste",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "sha3",
@@ -13246,12 +13245,12 @@ dependencies = [
 [[package]]
 name = "precompile-utils"
 version = "0.1.0"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "derive_more 1.0.0",
  "environmental",
  "evm 0.42.0",
- "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "fp-evm 3.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "frame-support 38.2.0",
  "frame-system 38.0.0 (git+https://github.com/paritytech/polkadot-sdk?branch=stable2409)",
  "hex",
@@ -13259,9 +13258,9 @@ dependencies = [
  "impl-trait-for-tuples",
  "log",
  "num_enum 0.7.3",
- "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "pallet-evm 6.0.0-dev (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "parity-scale-codec",
- "precompile-utils-macro 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils-macro 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "scale-info",
  "serde",
  "similar-asserts",
@@ -13289,7 +13288,7 @@ dependencies = [
 [[package]]
 name = "precompile-utils-macro"
 version = "0.1.0"
-source = "git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash#8586818bb0db0b1586efc9ca555571e28d348948"
+source = "git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash#181ab22727fd01fede36a16069ef7f1d6c8ce950"
 dependencies = [
  "case",
  "num_enum 0.7.3",
@@ -19642,7 +19641,7 @@ dependencies = [
  "moonbase-runtime",
  "moonbeam-runtime",
  "moonriver-runtime",
- "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable_2409_mixhash)",
+ "precompile-utils 0.1.0 (git+https://github.com/DylanVerstraete/frontier?branch=stable2409_new_mixhash)",
  "serde_json",
 ]
 
