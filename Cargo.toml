@@ -236,9 +236,9 @@ ethereum = { version = "0.18.2", default-features = false, features = [
     "with-scale",
 ] }
 ethereum-types = { version = "0.15.1", default-features = false }
-evm = { version = "0.43.2", default-features = false, features = ["tracing"] }
-evm-gasometer = { version = "0.43.2", default-features = false, features = ["tracing"] }
-evm-runtime = { version = "0.43.2", default-features = false, features = ["tracing"] }
+evm = { git = "https://github.com/moonbeam-foundation/evm", branch = "moonbeam-polkadot-stable2506", default-features = false }
+evm-gasometer = { git = "https://github.com/moonbeam-foundation/evm", branch = "moonbeam-polkadot-stable2506", default-features = false }
+evm-runtime = { git = "https://github.com/moonbeam-foundation/evm", branch = "moonbeam-polkadot-stable2506", default-features = false }
 fp-ethereum = { git = "https://github.com/gluwa/frontier_2", branch = "stable2506_patch", default-features = false }
 fp-evm = { git = "https://github.com/gluwa/frontier_2", branch = "stable2506_patch", default-features = false }
 fp-rpc = { git = "https://github.com/gluwa/frontier_2", branch = "stable2506_patch", default-features = false }
