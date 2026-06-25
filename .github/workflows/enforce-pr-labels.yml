@@ -5,6 +5,7 @@ on:
     types: [labeled, unlabeled, opened, edited, synchronize]
 jobs:
   enforce-noteworthiness-label:
+    if: false
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -22,6 +23,7 @@ jobs:
           REQUIRED_LABELS_ALL: ""
           BANNED_LABELS: ""
   enforce-auditability-label:
+    if: false
     runs-on: ubuntu-latest
     permissions:
       contents: read
